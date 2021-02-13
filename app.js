@@ -7,17 +7,17 @@ let clickUpgrades = {
       multiplier: 1
     },
      pickaxe: {
-        price: 20,
+        price: 50,
         quantity: 0,
         multiplier: 2
       },
       laser: {
-        price: 25,
+        price: 150,
         quantity: 0,
         multiplier: 4
       },
       rover: {
-        price: 30,
+        price: 200,
         quantity: 0,
         multiplier: 8
       },
@@ -25,7 +25,7 @@ let clickUpgrades = {
 
   let automaticUpgrades = {
     elonMusk: {
-      price: 10,
+      price: 50,
       quantity: 0,
       multiplier: 20
     }
