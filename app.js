@@ -37,6 +37,7 @@ function buyUpgrade(upgradeKey){
         totalMoonDust-= item.price
         item.quantity++
         console.log(`purchased`)
+        item.price*= 2
     }
 update()
 }
@@ -47,6 +48,7 @@ function buyAutoUpgrade(upgradeKey){
         totalMoonDust-= item.price
         item.quantity++
         console.log(`purchased`)
+        item.price*= 2
     }
 update()
 }
