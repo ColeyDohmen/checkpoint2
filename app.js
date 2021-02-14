@@ -83,6 +83,16 @@ function mine(){
 
 function update(){
     document.getElementById('moonDust').innerText = totalMoonDust.toString();
+    document.getElementById('idshovel').innerText = clickUpgrades.shovel.quantity.toString();
+    document.getElementById('idpick').innerText = clickUpgrades.pickaxe.quantity.toString();
+    document.getElementById('idlaser').innerText = clickUpgrades.laser.quantity.toString();
+    document.getElementById('idrover').innerText = clickUpgrades.rover.quantity.toString();
+    document.getElementById('idelon').innerText = automaticUpgrades.elonMusk.quantity.toString();
+    document.getElementById('idShovelPrice').innerText = clickUpgrades.shovel.price.toString();
+    document.getElementById('idPickPrice').innerText = clickUpgrades.pickaxe.price.toString();
+    document.getElementById('idLaserPrice').innerText = clickUpgrades.laser.price.toString();
+    document.getElementById('idRoverPrice').innerText = clickUpgrades.rover.price.toString();
+    document.getElementById('idElonPrice').innerText = automaticUpgrades.elonMusk.price.toString();
 
 }
 update()
